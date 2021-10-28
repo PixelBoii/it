@@ -39,7 +39,7 @@
             <img src="/face-outline.png" class="w-3/4 md:w-1/2 h-auto absolute bottom-0 inset-x-0 mx-auto">
         </div>
 
-        <div class="relative characters" id="chapter-one">
+        <div class="relative bg-gray-100" id="chapter-one">
             <div class="absolute top-0 left-0 characters-gradient-down w-full h-72"></div>
 
             <div class="py-10 px-10 relative">
@@ -232,10 +232,6 @@ export default {
 </script>
 
 <style>
-.characters {
-    background-color: #f3f4f5;
-}
-
 .characters-gradient-down {
     background-image: linear-gradient(to bottom, #dde8ea, transparent);
 }
