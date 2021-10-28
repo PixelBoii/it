@@ -55,7 +55,7 @@
                     </div>
 
                     <div class="mt-6 space-y-12 container mx-auto max-w-5xl">
-                        <div class="flex items-center space-x-6" :class="{'flex-row-reverse': i % 2 == 1}" v-for="(character, i) in characters" :key="character.name">
+                        <div class="flex flex-col items-center space-y-6 md:space-y-0 md:space-x-6 text-center md:text-left" :class="[i % 2 == 1 ? 'md:flex-row-reverse' : 'md:flex-row']" v-for="(character, i) in characters" :key="character.name">
                             <img :src="character.img" alt="" class="w-40 h-40 object-cover rounded-full">
 
                             <div>
