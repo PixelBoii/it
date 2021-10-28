@@ -16,7 +16,7 @@
         </transition>
 
         <div class="min-h-screen w-full relative bg-[#dde8ea]" :style="{ transform: `translateY(${scrollY / 10}px)` }">
-            <div class="absolute top-1/4 inset-x-0 mx-auto">
+            <div class="absolute top-1/4 inset-x-0 mx-auto z-10">
                 <img src="/it-logo.png" alt="It" class="w-32 h-auto mx-auto">
 
                 <div class="flex justify-center items-center space-x-4 mt-8">
