@@ -15,7 +15,7 @@
             </div>
         </transition>
 
-        <div class="min-h-screen w-full header relative" :style="{ transform: `translateY(${scrollY / 10}px)` }">
+        <div class="min-h-screen w-full relative bg-[#dde8ea]" :style="{ transform: `translateY(${scrollY / 10}px)` }">
             <div class="absolute top-1/4 inset-x-0 mx-auto">
                 <img src="/it-logo.png" alt="It" class="w-32 h-auto mx-auto">
 
@@ -35,6 +35,8 @@
                     </a>
                 </div>
             </div>
+
+            <img src="/face-outline.png" class="w-3/4 md:w-1/2 h-auto absolute bottom-0 inset-x-0 mx-auto">
         </div>
 
         <div class="relative characters" id="chapter-one">
@@ -230,16 +232,6 @@ export default {
 </script>
 
 <style>
-.header {
-    background-color: #dde8ea;
-    background-image: url('/face-outline.png');
-    background-position: bottom;
-    background-size: 50%;
-    background-repeat: no-repeat;
-    will-change: transform;
-    transition: transform .05s ease-in-out;
-}
-
 .characters {
     background-color: #f3f4f5;
 }
