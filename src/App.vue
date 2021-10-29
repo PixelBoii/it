@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="font-roboto">
         <transition
             enter-active-class="transition transform"
             enter-from-class="opacity-0 translate-y-2"
