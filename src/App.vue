@@ -48,7 +48,7 @@
                         <p class="text-gray-700 text-2xl font-bold"> Chapter 1 </p>
                     </div>
 
-                    <iframe class="mx-auto h-72 w-2/3 rounded-md" src="https://www.youtube-nocookie.com/embed/xKJmEC5ieOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="mx-auto h-72 w-full md:w-2/3 rounded-md" src="https://www.youtube-nocookie.com/embed/xKJmEC5ieOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
 
                 <div class="py-10">
@@ -136,9 +136,9 @@
                 <p class="text-gray-100 text-2xl font-bold"> Chapter 2 </p>
             </div>
 
-            <div class="py-6 space-y-6 relative">
+            <div class="py-10 px-10 space-y-6 relative">
                 <div class="container mx-auto max-w-5xl">
-                    <iframe class="mx-auto h-72 w-2/3 rounded-md" src="https://www.youtube-nocookie.com/embed/xhJ5P7Up3jA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="mx-auto h-72 w-full md:w-2/3 rounded-md" src="https://www.youtube-nocookie.com/embed/xhJ5P7Up3jA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                     <div class="text-center mt-4 px-6">
                         <p class="text-gray-300 text-lg font-medium"> <strong> Twenty-seven </strong> years after their first encounter with the terrifying Pennywise, the Losers Club have grown up and moved away, until a devastating phone call brings them back. </p>
