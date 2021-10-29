@@ -82,49 +82,38 @@
 
                     <div class="mt-6 container mx-auto max-w-5xl">
                         <div>
-                            <p class="text-gray-700 font-semibold text-center"> In October 1988, twelve-year-old Bill Denbrough crafts a paper sailboat for Georgie, his six-year-old brother. Georgie sails the boat along the rainy streets of small town Derry, Maine, only to have it fall down a storm drain. As he attempts to retrieve it, Georgie sees a clown in the drain, who introduces himself as "Pennywise the Dancing Clown". Pennywise entices Georgie to come closer, then bites his arm off and drags him into the sewer. </p>
+                            <p class="text-gray-700 font-semibold text-center leading-7"> In October 1988, twelve-year-old Bill Denbrough crafts a paper sailboat for Georgie, his six-year-old brother. Georgie sails the boat along the rainy streets of small town Derry, Maine, only to have it fall down a storm drain. As he attempts to retrieve it, Georgie sees a clown in the drain, who introduces himself as "Pennywise the Dancing Clown". Pennywise entices Georgie to come closer, then bites his arm off and drags him into the sewer. </p>
                             <img src="/paper-boat.png" alt="" class="w-32 h-auto mx-auto">
                         </div>
 
-                        <div>
-                            <div class="bg-white px-8 rounded-md py-3 w-max mx-auto mt-4">
-                                <p class="text-gray-700 font-semibold"> Next Summer </p>
-                            </div>
-
-                            <p class="text-gray-700 font-semibold mx-auto w-max leading-none mt-1"> ... </p>
+                        <div class="bg-white px-8 rounded-md py-3 w-max mx-auto mt-12">
+                            <p class="text-gray-700 font-semibold"> Next Summer </p>
                         </div>
 
                         <div>
-                            <p class="text-gray-700 font-semibold text-center mt-6"> The following summer, Bill and his friends Richie Tozier, Eddie Kaspbrak, and Stan Uris run afoul of older bullies Henry Bowers, Belch Huggins, Patrick Hockstetter, and Victor Criss. Bill, still haunted by Georgie's disappearance, calculates that his brother's body may have washed up in a marshy wasteland called the Barrens. He recruits his friends to investigate, believing Georgie may still be alive. Ben Hanscom, one of Bill's new classmates, learns that unexplained tragedies and child disappearances have plagued the town for centuries. Targeted by Bowers' gang, Ben flees into the Barrens and meets Bill's group. They find the sneaker of a missing girl named Betty Ripsom, while Patrick is killed by Pennywise while searching the sewers for Ben. </p>
+                            <p class="text-gray-700 font-semibold text-center mt-6 leading-7"> The following summer, Bill and his friends Richie Tozier, Eddie Kaspbrak, and Stan Uris run afoul of older bullies Henry Bowers, Belch Huggins, Patrick Hockstetter, and Victor Criss. Bill, still haunted by Georgie's disappearance, calculates that his brother's body may have washed up in a marshy wasteland called the Barrens. He recruits his friends to investigate, believing Georgie may still be alive. Ben Hanscom, one of Bill's new classmates, learns that unexplained tragedies and child disappearances have plagued the town for centuries. Targeted by Bowers' gang, Ben flees into the Barrens and meets Bill's group. They find the sneaker of a missing girl named Betty Ripsom, while Patrick is killed by Pennywise while searching the sewers for Ben. </p>
                             <img src="/sewers.png" alt="" class="w-2/3 max-h-72 object-cover mx-auto rounded-md mt-6">
-                            <p class="text-gray-700 font-semibold text-center mt-6"> Beverly Marsh, a girl bullied over her rumored promiscuity, also joins the group; both Bill and Ben develop feelings for her. Later, the group befriends orphan Mike Hanlon after rescuing him from Bowers. Each member of the group has encountered terrifying manifestations of the same menacing clown who attacked Georgie: a headless undead boy (Ben), a sink that spews blood only children can see (Beverly), a diseased and rotting leper (Eddie), a disturbing painting coming alive (Stan), Mike's parents burning alive (Mike), and a frightening phantom of Georgie (Bill). Now calling themselves "The Losers Club", they realize they are all being stalked by the same entity, which they refer to as "It". They determine that It appears as their individual worst fears, awakening every 27 years to feed on the children of Derry before resuming hibernation, and moves about by using the sewer lines, which all lead to an old stone well hidden under an abandoned house on Neibolt Street. </p>
+                            <p class="text-gray-700 font-semibold text-center mt-6 leading-7"> Beverly Marsh, a girl bullied over her rumored promiscuity, also joins the group; both Bill and Ben develop feelings for her. Later, the group befriends orphan Mike Hanlon after rescuing him from Bowers. Each member of the group has encountered terrifying manifestations of the same menacing clown who attacked Georgie: a headless undead boy (Ben), a sink that spews blood only children can see (Beverly), a diseased and rotting leper (Eddie), a disturbing painting coming alive (Stan), Mike's parents burning alive (Mike), and a frightening phantom of Georgie (Bill). Now calling themselves "The Losers Club", they realize they are all being stalked by the same entity, which they refer to as "It". They determine that It appears as their individual worst fears, awakening every 27 years to feed on the children of Derry before resuming hibernation, and moves about by using the sewer lines, which all lead to an old stone well hidden under an abandoned house on Neibolt Street. </p>
                             <img src="/team.png" alt="" class="w-2/3 h-auto mx-auto rounded-md mt-6">
-                            <p class="text-gray-700 font-semibold text-center mt-6"> After Pennywise attacks them, the group ventures to the house to confront It, only to be separated and terrorized. As Pennywise gloats to Bill about Georgie, the Losers regroup and Beverly impales Pennywise through the head, forcing the clown to retreat. The group flees the house and begins to splinter, with only Bill and Beverly resolute in fighting It. </p>
+                            <p class="text-gray-700 font-semibold text-center mt-6 leading-7"> After Pennywise attacks them, the group ventures to the house to confront It, only to be separated and terrorized. As Pennywise gloats to Bill about Georgie, the Losers regroup and Beverly impales Pennywise through the head, forcing the clown to retreat. The group flees the house and begins to splinter, with only Bill and Beverly resolute in fighting It. </p>
                         </div>
 
-                        <div class="mt-12">
-                            <div class="bg-white px-8 rounded-md py-3 w-max mx-auto mt-6">
-                                <p class="text-gray-700 font-semibold"> Weeks Later </p>
-                            </div>
-
-                            <p class="text-gray-700 font-semibold mx-auto w-max leading-none mt-1"> ... </p>
+                        <div class="bg-white px-8 rounded-md py-3 w-max mx-auto mt-12">
+                            <p class="text-gray-700 font-semibold"> Weeks Later </p>
                         </div>
 
                         <div>
-                            <p class="text-gray-700 font-semibold mt-6 text-center"> Weeks later, after Beverly confronts and incapacitates her sexually abusive father, Pennywise abducts her. The Losers Club reassembles and returns to the abandoned house to rescue her. Bowers, who has murdered his abusive father after being driven insane by It, attacks the group; Mike fights back and pushes Bowers down the well, apparently killing him. The Losers descend into the sewers and find It's underground lair, which contains a mountain of decayed circus props and children's belongings, around which the bodies of It's child victims float in mid-air. Beverly, now catatonic after being exposed to bright lights inside It's gaping mouth, is restored to consciousness when Ben kisses her. </p>
-                            <p class="text-gray-700 font-semibold mt-6 text-center"> Bill encounters Georgie, but recognizes that he is It in disguise. As Pennywise, It takes Bill hostage, offering to spare the others and go into hibernation if they let It feed on Bill. The Losers reject this, battling with It while overcoming their various fears. It is eventually defeated and retreats deeper into the sewers, with Bill declaring that It will starve during its hibernation. After finding the remnants of Georgie's raincoat, Bill finally comes to terms with his brother's death, with his friends comforting him. </p>
+                            <p class="text-gray-700 font-semibold mt-6 text-center leading-7"> Weeks later, after Beverly confronts and incapacitates her sexually abusive father, Pennywise abducts her. The Losers Club reassembles and returns to the abandoned house to rescue her. Bowers, who has murdered his abusive father after being driven insane by It, attacks the group; Mike fights back and pushes Bowers down the well, apparently killing him. The Losers descend into the sewers and find It's underground lair, which contains a mountain of decayed circus props and children's belongings, around which the bodies of It's child victims float in mid-air. Beverly, now catatonic after being exposed to bright lights inside It's gaping mouth, is restored to consciousness when Ben kisses her. </p>
+                            <img src="/beverly-abducted.png" alt="" class="w-1/2 h-60 object-cover mx-auto rounded-md mt-6">
+                            <p class="text-gray-700 font-semibold mt-6 text-center leading-7"> Bill encounters Georgie, but recognizes that he is It in disguise. As Pennywise, It takes Bill hostage, offering to spare the others and go into hibernation if they let It feed on Bill. The Losers reject this, battling with It while overcoming their various fears. It is eventually defeated and retreats deeper into the sewers, with Bill declaring that It will starve during its hibernation. After finding the remnants of Georgie's raincoat, Bill finally comes to terms with his brother's death, with his friends comforting him. </p>
                         </div>
 
-                        <div class="mt-12">
-                            <div class="bg-white px-8 rounded-md py-3 w-max mx-auto mt-6">
-                                <p class="text-gray-700 font-semibold"> End of Summer </p>
-                            </div>
-
-                            <p class="text-gray-700 font-semibold mx-auto w-max leading-none mt-1"> ... </p>
+                        <div class="bg-white px-8 rounded-md py-3 w-max mx-auto mt-12">
+                            <p class="text-gray-700 font-semibold"> End of Summer </p>
                         </div>
 
                         <div>
-                            <p class="text-gray-700 font-semibold mt-6 text-center"> As summer ends, Beverly informs the group of a vision she had while catatonic, where she saw them fighting It again as adults. The Losers swear a blood oath that they will return to Derry as adults if It returns. After the others make their goodbyes and disperse, Beverly and Bill discuss her leaving the next day to live with her aunt in Portland. Before she leaves, Bill reveals his feelings and they kiss. </p>
+                            <p class="text-gray-700 font-semibold mt-6 text-center leading-7"> As summer ends, Beverly informs the group of a vision she had while catatonic, where she saw them fighting It again as adults. The Losers swear a blood oath that they will return to Derry as adults if It returns. After the others make their goodbyes and disperse, Beverly and Bill discuss her leaving the next day to live with her aunt in Portland. Before she leaves, Bill reveals his feelings and they kiss. </p>
                         </div>
                     </div>
                 </div>
