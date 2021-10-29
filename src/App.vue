@@ -132,6 +132,19 @@
                     <div class="text-center mt-4 px-6">
                         <p class="text-gray-300 text-lg font-medium"> <strong> Twenty-seven </strong> years after their first encounter with the terrifying Pennywise, the Losers Club have grown up and moved away, until a devastating phone call brings them back. </p>
                     </div>
+
+                    <div class="sticky top-0 bg-gray-800 py-3 w-full mt-8">
+                        <p class="text-gray-200 text-2xl font-semibold text-center"> Characters </p>
+                    </div>
+
+                    <div class="grid grid-cols-3 gap-4 mt-2">
+                        <div class="w-full max-h-52 relative" v-for="character in characters" :key="character.name" @mouseenter="(character.img != character.old_img) && (character.hover = true)" @mouseleave="character.hover = false">
+                            <transition enter-active-class="transition transform duration-300" enter-from-class="opacity-0 scale-75" enter-to-class="opacity-100 scale-100" leave-active-class="transition transform duration-200" leave-from-class="opacity-100 scale-100" leave-to-class="opacity-0 scale-75">
+                                <img :src="character.old_img" alt="" class="w-full h-full object-cover absolute inset-0 m-auto rounded-md" style="object-position: center 10%" v-if="character.hover">
+                                <img :src="character.img" alt="" class="w-full h-full object-cover rounded-md" style="object-position: center 10%" v-else>
+                            </transition>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -147,6 +160,7 @@ export default {
                 {
                     name: 'Pennywise (It)',
                     img: '/pennywise.png',
+                    old_img: '/pennywise.png',
                     description: 'It is the title character and the main antagonist in Stephen King\'s 1986 horror novel It. The character is an ancient cosmic evil which preys upon the children of Derry, Maine, roughly every 27 years, using a variety of powers that include the ability to shapeshift, manipulate reality, and go unnoticed by adults. During the course of the story, It primarily appears in the form of Pennywise the Dancing Clown. "The Losers Club" first realizes Pennywise\'s presence because of Bill\'s little brother Georgie. ',
                     source: {
                         name: 'Wikipedia',
@@ -156,6 +170,7 @@ export default {
                 {
                     name: 'William "Bill" Denbrough',
                     img: '/bill-denbrough.png',
+                    old_img: '/bill-denbrough-old.png',
                     description: 'The red-headed leader of the group, and the most self-assured member of the club. He wants to avenge the death of his younger brother, George. He feels partly responsible for his death as it was he who made George the boat and sent him outside to play with it during a rainstorm. In addition, his parents have become cold and withdrawn towards him after the loss of their youngest son, and he secretly hopes the death of the murderer will awaken his parents to his presence again. He has a bad stuttering issue, which his mother attributes to a car accident that occurred when he was three years old, and which earned him the nickname "Stuttering Bill".',
                     source: {
                         name: 'Tvtropes',
@@ -165,6 +180,7 @@ export default {
                 {
                     name: 'Benjamin "Ben" Hanscom',
                     img: '/ben-hanscom.png',
+                    old_img: '/ben-hanscom-old.png',
                     description: 'A highly intelligent boy who, before joining the Losers\' Club, often spent his free time reading books at the public library. He is also obese, and due to this has become a favorite victim of Henry Bowers.',
                     source: {
                         name: 'Tvtropes',
@@ -174,6 +190,7 @@ export default {
                 {
                     name: 'Edward "Eddie" Kaspbrak',
                     img: '/edward-kaspbrak.png',
+                    old_img: '/edward-kaspbrak-old.png',
                     description: 'A frail and asthmatic hypochondriac, who carries his inhaler with him everywhere. His father died when he was very young, and his mother is domineering and constantly worries about his health.',
                     source: {
                         name: 'Tvtropes',
@@ -183,6 +200,7 @@ export default {
                 {
                     name: 'Richard "Richie" Tozier',
                     img: '/richie-tozier.png',
+                    old_img: '/richie-tozier-old.png',
                     description: 'Known as "Trashmouth", Richie is the Losers\' most lighthearted member, always cracking jokes and doing impersonations or "Voices", which prove very powerful weapons against It. He is "too intelligent for his own good" and channels his boredom in hyper-active wisecracking, to the point of getting into trouble. His flippant remark to Henry Bowers leads to almost getting beaten up by Henry and his friends. He is the most devoted to keeping the group together as he sees seven as a magical number and believes the group should have no more, no less. In adulthood, he is a successful disc jockey in Los Angeles.',
                     source: {
                         name: 'Tvtropes',
@@ -192,6 +210,7 @@ export default {
                 {
                     name: 'Michael "Mike" Hanlon',
                     img: '/mike-hanlon.png',
+                    old_img: '/mike-hanlon-old.png',
                     description: 'The last to join the Losers. He is the only African-American in the group and lives with his parents on a large farm. He goes to a different school from the other kids due to his Baptist faith. Mike is racially persecuted by Henry Bowers, whose father holds a long-standing grudge against Mike\'s father. Mike meets The Losers when they help him fight back against Bowers in a massive rock fight. His father kept an album filled with photos that were important to Derry\'s history, including several of Pennywise the Dancing Clown. He is the only one of the Losers to stay behind in Derry (and thus the only one to retain his memory of the events of 1958) and becomes the town librarian.',
                     source: {
                         name: 'Tvtropes',
