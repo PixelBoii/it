@@ -133,16 +133,36 @@
                         <p class="text-gray-300 text-lg font-medium"> <strong> Twenty-seven </strong> years after their first encounter with the terrifying Pennywise, the Losers Club have grown up and moved away, until a devastating phone call brings them back. </p>
                     </div>
 
-                    <div class="sticky top-0 bg-gray-800 py-3 w-full mt-8">
-                        <p class="text-gray-200 text-2xl font-semibold text-center"> Characters </p>
+                    <div>
+                        <div class="sticky top-0 bg-gray-800 py-3 w-full mt-8 z-10">
+                            <p class="text-gray-200 text-2xl font-semibold text-center"> Characters </p>
+                        </div>
+
+                        <div class="grid grid-cols-3 gap-4 mt-2">
+                            <div class="w-full max-h-52 relative" v-for="character in characters" :key="character.name" @mouseenter="(character.img != character.old_img) && (character.hover = true)" @mouseleave="character.hover = false">
+                                <transition enter-active-class="transition transform duration-300" enter-from-class="opacity-0 scale-75" enter-to-class="opacity-100 scale-100" leave-active-class="transition transform duration-200" leave-from-class="opacity-100 scale-100" leave-to-class="opacity-0 scale-75">
+                                    <img :src="character.old_img" alt="" class="w-full h-full object-cover absolute inset-0 m-auto rounded-md" style="object-position: center 10%" v-if="character.hover">
+                                    <img :src="character.img" alt="" class="w-full h-full object-cover rounded-md" style="object-position: center 10%" v-else>
+                                </transition>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="grid grid-cols-3 gap-4 mt-2">
-                        <div class="w-full max-h-52 relative" v-for="character in characters" :key="character.name" @mouseenter="(character.img != character.old_img) && (character.hover = true)" @mouseleave="character.hover = false">
-                            <transition enter-active-class="transition transform duration-300" enter-from-class="opacity-0 scale-75" enter-to-class="opacity-100 scale-100" leave-active-class="transition transform duration-200" leave-from-class="opacity-100 scale-100" leave-to-class="opacity-0 scale-75">
-                                <img :src="character.old_img" alt="" class="w-full h-full object-cover absolute inset-0 m-auto rounded-md" style="object-position: center 10%" v-if="character.hover">
-                                <img :src="character.img" alt="" class="w-full h-full object-cover rounded-md" style="object-position: center 10%" v-else>
-                            </transition>
+                    <div class="py-10">
+                        <div class="sticky top-0 bg-gray-800 py-3 w-full">
+                            <p class="text-gray-200 text-2xl font-semibold text-center"> Story </p>
+                        </div>
+
+                        <div class="mt-6 container mx-auto max-w-5xl">
+                            <div>
+                                <p class="text-gray-300 font-semibold text-center leading-7"> In 2016, It returns to Derry, Maine, and kills a man named Adrian Mellon after he and his boyfriend are brutally assaulted by homophobic youths. Mike Hanlon, the only member of the Losers Club who remained in Derry, calls the other members, Bill Denbrough, Ben Hanscom, Beverly Marsh, Richie Tozier, Eddie Kaspbrak, and Stanley Uris to honor the promise they made 27 years earlier to kill It if It came back. All of them travel back with hazy memories except for Stanley, who kills himself out of his fear of the creature. At a restaurant, Mike refreshes the Losers' memories before It itself reveals the news of Stanley's suicide to them. Richie and Eddie decide to leave until Beverly reveals that she has had psychic visions of their deaths if they fail to kill It. Meanwhile, It kills a young girl named Victoria at a baseball game after luring her into a trap. At the Derry Library, Mike shows Bill, via a drug-induced vision, that the Native American "Ritual of Chüd" can stop It for good. </p>
+                                <img src="/adrian-killed.png" alt="" class="w-2/3 h-auto mx-auto rounded-md mt-8">
+                                <p class="text-gray-300 font-semibold text-center leading-7 mt-8"> Mike explains that the ritual requires items from their past to be sacrificed. The members' searches for these past items involve traumatizing encounters with It, mostly in the form of Pennywise; Pennywise confronting Richie and telling him that he knows about his true sexuality, Beverly being attacked in her childhood home, Eddie being attacked by The Leper in a medicine shop's basement. Henry Bowers, who was arrested for killing his father, is freed from a mental hospital by It. Bowers also searches for the Losers and viciously attacks Eddie at the Losers' hotel, and then Mike at the library; Henry nearly kills Mike, but Richie kills him before he has the chance. The Losers rejoin Bill—who just failed to save a young boy named Dean from being eaten by It—at the Neibolt House, talking him out of facing It alone. </p>
+                                <img src="/henry-bowers.png" alt="" class="w-1/2 h-auto max-h-72 object-cover object-top mx-auto rounded-md mt-8">
+                                <p class="text-gray-300 font-semibold text-center leading-7 mt-8"> After three individual encounters with It, the group descend into a cavern beneath the sewers, where they perform the ritual. The ritual traps the Deadlights, It's true form, in a sealing jar, but a giant red balloon emerges from the jar, and explodes, revealing It as a spider with Pennywise's face. Pennywise pressures Mike into revealing that It killed the Natives originally performing the ritual because their fears overtook them, a fact Mike had hidden. It attacks the Losers and places Bill, Ben, and Beverly in individual traps, which they escape once Bill releases his guilt over It killing his younger brother Georgie, and when Beverly realizes Ben was the one who wrote a love letter to her when they originally encountered It, 27 years ago. Mike stands up to the creature, only to almost get eaten, but Richie manages to distract It, getting caught in It's Deadlights in the process. Eddie saves him, but is fatally impaled in the chest. Eddie explains how he made It feel small earlier, giving them an idea. The Losers mock It, insulting and calling It various names which causes It to literally shrink in size. Mike rips out It's heart, which he and the Losers crush with their bare hands, finally killing It. The Losers are forced to leave Eddie, who died from his injuries, while It's cavern implodes, destroying the Neibolt House. </p>
+                                <img src="/ritual-of-chud.png" alt="" class="w-2/3 h-auto max-h-72 object-cover object-top mx-auto rounded-md mt-8">
+                                <p class="text-gray-300 font-semibold text-center leading-7 mt-8"> The remaining Losers return to their old swimming area and wash off from their confrontation with It, and join hands to comfort Richie as he mourns for Eddie. It's demise has also caused the scars on their hands to disappear. After the Losers part ways, Ben and Beverly get married, Richie returns to the kissing bridge where he had once carved his and Eddie's initials, Mike decides to move out of Derry and start a new life, and Bill begins writing his new story before receiving a call from Mike as he leaves Derry, learning that Stanley sent them all posthumous letters. The letters reveal that Stanley was too scared to face It, and that his suicide was intended to strengthen his friends against It. He asks the remaining Losers to "live life to the fullest potential." </p>
+                            </div>
                         </div>
                     </div>
                 </div>
